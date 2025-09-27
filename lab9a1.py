@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # Load dataset
 df = pd.read_csv("/Users/niteshnirranjan/Downloads/DCT_mal.csv")
 
-# Features (first 196 columns) and target (LABEL column)
+# Features 
 X = df.iloc[:, :-1]
 y = df["LABEL"]
 
